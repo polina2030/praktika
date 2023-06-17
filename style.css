@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Tenor+Sans&display=swap');
+
+body{
+    background-color: #331A13;
+    margin: 0;
+}
+main{
+    margin: 0;
+    margin-top: 50px;
+}
+.kontakty_map{
+    display: flex;
+    justify-content: space-evenly;
+}
+.map{
+    position: relative;
+    overflow: hidden;
+}
+ul{
+    display: flex;
+    padding-top: 25px;
+}
+li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 19px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+h1{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Marck Script', cursive;
+    font-weight: lighter;
+    margin-right: 150px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;  
+    top: 0;  
+    z-index: 100;  
+    width: 100%; 
+    background-color: #331A13;
+}
+
+article{
+    width: 100%;
+    padding-top: 30px;
+    background-color: #E6D3C0;
+    margin-bottom: 7px;
+    padding-bottom: 50px;
+}
+.spisok_card{
+    display: flex;
+    justify-content: space-evenly; 
+    
+}
+.a_spisok{
+    text-decoration: none;
+    
+}
+.card{
+    width: 25%;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+}
+.img_main{
+    
+    border-radius: 23px;
+    height: 200px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+h2{
+    margin-left: 9%;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 30px;
+}
+
+.logo_main{
+    background-image: url(images/fons/фон\ главный.png);
+    background-size: cover;
+    margin: 0px;
+    padding: 100px 50px 300px 0px;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+.text_footer{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.networks{
+    padding-top: 30px;
+}
+.img_nav{
+    padding: 0px 10px;
+
+}
+.prava{
+    color: #FFFFFF;
+    text-align: center;
+}
+.question{
+    font-size: 60px;
+    font-family: 'Marck Script', cursive;
+}
+.priglashenie{
+    font-size: 25px;
+    font-family:'Tenor Sans', sans-serif;
+}
+.card_opisanie{
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+    color: black;
+    padding: 0 5px;
+}
+
+.logo_kontakty{
+    background-image: url(images/fons/фон\ контакты.png);
+    background-size: cover;
+    margin: 0px;
+    padding: 200px 0px;
+    text-align: center;
+    padding-left: 30%;
+}
+.logo{
+    border: 6px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    width: 50%;
+    padding: 50px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.abzac_spisok{
+    border: 2px solid #331A13;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    width: 40%;
+}
+.abzac{
+    padding: 10px;
+}
+h3{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 30px;
+}
+.name_abzac{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 20px;
+    padding: 0;
+    text-align: justify;
+}
+.logo_oNas{
+    background-image:url(images/fons/фон\ о\ нас.png);
+    background-size: cover;
+    margin: 0px;
+    padding: 200px 0px;
+    text-align: center;
+    padding-left: 30%;
+}
+.abzac_oNas{
+    border: 2px solid #331A13;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    width: 80%;
+    padding: 0 20px;
+    margin-left: 10%;
+    
+}
+
+
+/* Описание товаров */
+.cartochka_tovara{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.img_site{
+    border-radius: 300px;
+}
+.h2_name{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+.h3_tovar{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 25px;
+}
+.p_name{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 15px;
+
+}
+.time{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 15px;
+    color: gray;
+
+}
+.abzac_novosti{
+    width: 60%;
+    border: 2px solid #331A13;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    margin-left: 20%;
+    padding: 0 20px;
+    text-align: justify;
+}
+.logo_novosti{
+    background-image: url(images/fons/фон\ новости.png);
+    background-size: cover;
+    margin: 0px;
+    padding: 150px 0px;
+    text-align: center;
+    padding-left: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*вертикальный телефон*/
+@media (max-width:480px){
+    main{
+        margin: 0;
+    }
+    .name_header{
+        font-size: 30px;
+        margin:0;
+        padding-left: 10%;
+    }
+    header{
+        position: relative;
+        padding-bottom: 5px;
+    }
+    a{
+        width: 35px;
+    }
+    .networks{
+        display: flex;
+        padding-top: 10px;
+    }
+    .logo_novosti{
+        background-image: url(images/fons/фон\ новости\ mobile.png);
+        background-size: cover;
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .logo{
+        font-size: 30px;
+        padding: 20px;
+        margin-left: 20%;
+        
+    }
+    h3{
+        font-size: 20px;
+
+    }
+    .time{
+        font-size: 13px;
+    }
+    .name_abzac{
+        font-size: 15px;
+    }
+    .img_nav{
+        width: 70%;
+        padding: 0;
+
+    }
+    .hamburger-menu{
+        margin-right: 20px;
+    }
+    .abzac_novosti{
+        margin-left: 15%;
+    }
+
+    /*Контакты*/
+    .kontakty_map{
+        display: block;
+    }
+    .abzac_spisok{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .map{
+        padding-top: 20px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .logo_kontakty{
+        padding: 15px 0px;
+        background-image: url(images/fons/фон\ контакты\ mobile.png);
+    }
+
+    /*О нас */
+    .logo_oNas{
+        background-image: url("images/fons/фон\ о\ нас\ mobile.png");
+        background-size: cover;
+        padding: 20px 0;
+    }
+    .abzac_oNas{
+        width: 80%;
+        margin-left: 7%;
+        padding: 0px 10px;
+    }
+
+    /* Меню*/
+    .spisok_card{
+        display: block;
+    }
+    .card{
+        margin-left: 20%;
+        width: 60%;
+    }
+    .img_main{
+        height: 0%;
+    }
+    .card_opisanie{
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .logo_main{
+        background-image: url("images/fons/фон\ главный\ mobile.png");
+        background-size: cover;
+        padding: 10px 10px 40px 0;
+        
+    }
+    .question{
+        font-size: 30px;
+        margin-bottom: 0;
+        
+    }
+    .priglashenie{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+
+    /*Описание товара*/
+    .cartochka_tovara{
+        display: block;
+        padding-top: 20px;
+    }
+    .img_site {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+    .tovar{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .h2_name{
+        font-size: 40px;
+    }
+    .h3_tovar{
+        font-size: 30px;
+    }
+    .p_name{
+        margin-bottom: 50px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #menu__toggle {
+        opacity: 0;
+      }
+      /* стилизуем кнопку */
+      .menu__btn {
+        display: flex; /* используем flex для центрирования содержимого */
+        align-items: center;  /* центрируем содержимое кнопки */
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 26px;
+        height: 26px;
+        z-index: 1;
+      }
+      /* добавляем "гамбургер" */
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: white;
+      }
+      .menu__btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }
+      /* контейнер меню */
+      .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background-color: #331A13;
+      }
+      /* элементы меню */
+      .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: #333;
+        text-decoration: none;
+      }
+      .menu__item:hover {
+        background-color: #CFD8DC;
+      }
+      #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+      }
+      
+    
+    
+}
+
