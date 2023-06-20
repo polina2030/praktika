@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Tenor+Sans&display=swap');
+
+.main{
+    margin: 0;
+    background-color: #331A13;
+    margin-top: 50px;
+}
+.text_footer{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.networks{
+    padding-top: 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;  
+    top: 0;  
+    z-index: 100;  
+    width: 100%; 
+    background-color: #331A13;
+}
+.article{
+    width: 100%;
+    padding-top: 30px;
+    background-color: #E6D3C0;
+    padding-bottom: 50px;
+}
+.img_nav{
+    padding: 0px 10px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+ul{
+    display: flex;
+    padding-top: 25px;
+}
+li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 19px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+
+
+
+.cartochka_tovara{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+.img_site{
+    border-radius: 300px;
+}
+.h2_name{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+.h3_tovar{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 25px;
+}
+.p_name{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+@media (max-width:480px){
+    .main{
+        margin: 0;
+    }
+    .name_header{
+        font-size: 30px;
+        margin:0;
+        padding-left: 10%;
+    }
+    .header{
+        position: relative;
+        padding-bottom: 5px;
+    }
+    a{
+        width: 35px;
+    }
+    .networks{
+        display: flex;
+        padding-top: 10px;
+    }
+    .cartochka_tovara{
+        display: block;
+        padding-top: 20px;
+    }
+    .img_site {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+    .tovar{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .h2_name{
+        font-size: 30px;
+    }
+    .h3_tovar{
+        font-size: 20px;
+    }
+    .p_name{
+        margin-bottom: 50px;
+    
+    }
+}
+
+
