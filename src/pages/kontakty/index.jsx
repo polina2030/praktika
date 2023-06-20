@@ -27,11 +27,11 @@ const PageKontakty = () => {
                     </div>
                 </div>
                 <div className = "map">
-                    <a className="kkk" href="https://yandex.ru/maps/197/barnaul/?utm_medium=mapframe&utm_source=maps" 
+                    <a className="map_one" href="https://yandex.ru/maps/197/barnaul/?utm_medium=mapframe&utm_source=maps" 
                    >Барнаул</a>
-                    <a className="lll" href="https://yandex.ru/maps/197/barnaul/house/prospekt_lenina_55/bEoYcQBoS0EOQFtpfX91dHpjYw==/?ll=83.778249%2C53.345608&utm_medium=mapframe&utm_source=maps&z=16.73" 
+                    <a className="map_two" href="https://yandex.ru/maps/197/barnaul/house/prospekt_lenina_55/bEoYcQBoS0EOQFtpfX91dHpjYw==/?ll=83.778249%2C53.345608&utm_medium=mapframe&utm_source=maps&z=16.73" 
                     >Проспект Ленина, 55 — Яндекс Карты</a>
-                    <iframe className="hhh" src="https://yandex.ru/map-widget/v1/?ll=83.778249%2C53.345608&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NTk3Mjk0NhJc0KDQvtGB0YHQuNGPLCDQkNC70YLQsNC50YHQutC40Lkg0LrRgNCw0LksINCR0LDRgNC90LDRg9C7LCDQv9GA0L7RgdC_0LXQutGCINCb0LXQvdC40L3QsCwgNTUiCg13jqdCFedhVUI%2C&z=16.73" 
+                    <iframe className="map_three" src="https://yandex.ru/map-widget/v1/?ll=83.778249%2C53.345608&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NTk3Mjk0NhJc0KDQvtGB0YHQuNGPLCDQkNC70YLQsNC50YHQutC40Lkg0LrRgNCw0LksINCR0LDRgNC90LDRg9C7LCDQv9GA0L7RgdC_0LXQutGCINCb0LXQvdC40L3QsCwgNTUiCg13jqdCFedhVUI%2C&z=16.73" 
                      frameborder="1" allowfullscreen="true"></iframe>
                 </div>
             </article>
