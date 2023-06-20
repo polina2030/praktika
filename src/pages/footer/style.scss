@@ -19,3 +19,20 @@
     padding-bottom: 0px;
     font-size: 12px;
 }
+.networks_footer{
+    padding-bottom: 20px;
+    display: flex;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .networks_footer{
+      margin-top: 0;
+      padding-top: 0;
+      margin-right: 0;
+    }
+    .ppp_footer{
+        font-size: 10px;
+    }
+}
